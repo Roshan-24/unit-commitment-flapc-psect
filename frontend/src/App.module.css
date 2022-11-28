@@ -1,0 +1,77 @@
+.container {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.loadCurve {
+  display: flex;
+  justify-content: center;
+  padding: 8px 12px;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 48px;
+  /* background-color: #330f7a; */
+  border-radius: 8px;
+}
+
+.loadCurveInput {
+  width: 60px;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  place-items: center;
+}
+
+.loadCurveInput > input {
+  width: 60px;
+}
+
+.addGen {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.genInput {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.genInput > * {
+  max-width: 100px;
+}
+
+.addBtn,
+.compute {
+  max-width: 120px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.compute {
+  margin-top: 16px;
+  background-color: #4314a0;
+}
+
+.outputTitle {
+  margin: auto;
+  margin-top: 16px;
+}
+
+.output {
+  font-family: monospace;
+  white-space: pre-wrap;
+  margin: auto;
+}
